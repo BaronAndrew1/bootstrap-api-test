@@ -1,0 +1,60 @@
+$margin: 5%;
+$background: #ccc;
+$width: 99%;
+$display: inline-block;
+
+.container{
+  background: $background;
+}
+
+.col-1{
+  width: $width;
+}
+
+.col-2{
+  width: $width/2;
+  display: $display;
+  vertical-align: top;
+}
+
+.col-3{
+  width: $width/3;
+  display: $display;
+  vertical-align: top;
+}
+
+#map{
+  height: 20em;
+}
+
+.col-2-img{
+  height: 9em;
+  margin: 2em 6px 2em 6px;
+}
+
+.col-3-img{
+  width: 98%;
+  height: 10em;
+}
+
+.col-3-img-2{
+  width: 98%;
+  height: 14.25em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.food{
+  font-size: 20px;
+  line-height: 200%;
+}
+
+.footer{
+  background: #666;
+  color: white;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin-top: 1em;
+  width: 98%;
+  margin-bottom: 1em;
+}

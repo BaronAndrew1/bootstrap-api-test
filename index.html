@@ -1,0 +1,94 @@
+<!DOCTYPE>
+
+<html>
+
+  <head>
+    <title>BOOTSTRAP API TEST</title>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/css/index.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,700italic,400italic,300italic' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="jumbotron">
+        <h1>A lovely bootstrap jumbo</h1>
+        <p>containing lovely text supplied by me.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">There is even a button.</a></p>
+      </div>
+
+      <div class="page-header text-center">
+        <h3>Welcome to the greatest site ever created.  It is probably not what you expected, but you will come to love it eventually. Just beware, time flows differently here, so you might notice some gaps in your memory upon entering and leaving. <br><br><small>Upon entering this site, you psychically signed a contract with us relieving us of all responsibility towards your mental and physical well-being.  If you start to feel sick or begin losing time when you are not on this site please contact The Doctor or Sherlock for help resolving your issues.  They seem to like helping people.</small></h3>
+      </div>
+
+      <div class='col-2'>
+        <div class="osaka">
+          Believe me when I say one of the best possible places in the world is Japan.  Contrary to what you have been told, Japan is the center of the universe and makes everything useful on this planet.  Do not even think to compare your puny country to the epicness of the creators of Japanese Animation, Moe, and the samurai way of life.  Note the incredibly epic creations of japan below LIKE CATS!! YES THEY MADE CATS!<br>
+          <img class="col-2-img" src="assets/images/kenshin.jpg">
+          <img class="col-2-img" src="assets/images/kenshin2.jpg">
+          <img class="col-2-img" src="assets/images/cat1.jpeg">
+          <img class="col-2-img" src="assets/images/cat2.jpeg">
+        </div>
+      </div>
+
+      <div class='col-2'>
+        <div id="map">
+          <script>// GOOGLE MAPS API
+            var map;
+            function initMap() {
+              map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: 34.693, lng: 135.502},
+                zoom: 11
+              });
+            }
+          </script>
+        </div>
+      </div>
+
+      <div class='col-1'>
+
+        <div class='col-3'>
+          <img class='col-3-img' src="assets/images/sushi.jpg">
+          <img class='col-3-img col-3-img-2' src="assets/images/ramen.jpeg">
+          <img class='col-3-img' src="assets/images/parm.jpeg">
+        </div>
+
+        <div class='col-3'>
+          <div class="food text-center">
+            Japan also has perhaps the greatest claim to fame that can be imagined.<br>  FOOD!<br>  JAPAN MADE: <br>SUSHI <br> UDON <br> TERIYAKI <br> SOYAKI <br> RAMEN <br> CHICKEN PARMESAN <br> AND PASTA!!!!!
+          </div>
+        </div>
+
+        <div class='col-3'>
+          <img class='col-3-img' src="assets/images/udon.jpeg">
+          <img class='col-3-img col-3-img-2' src="assets/images/teriyaki.jpeg">
+          <img class='col-3-img' src="assets/images/pasta.jpg">
+        </div>
+      </div>
+
+      <footer class="footer text-center">
+        This is my footer, it is very nice, and explains a whole lot about me and my methodologies.<br>
+        In case you couldn't tell, this is extremely fictional.</br>
+        WHY SO SERIOUS?!?!?!?!
+      </footer>
+
+
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqMSH809_YEnF_3r3LmKw_4rlFdn1Jltc&callback=initMap"
+    async defer></script>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
